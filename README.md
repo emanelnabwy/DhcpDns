@@ -22,9 +22,6 @@ The project includes the following files and directories:
 ## Getting Started
 To replicate my project, you will need to set up a CentOS 7 virtual machine and follow the instructions in each directory to set up and manage the DHCP server, DNS server, and gateway server.
 
-## Acknowledgments
-I would like to thank our instructor at ITI for providing us with the knowledge and guidance to complete this project. I would also like to thank my team member Eman for her collaboration and support throughout the project.
-
 ## Conclusion
 I'm proud of my work on this project and grateful for the opportunity to use my skills and knowledge to make a real difference in our organization. I hope this project serves as a useful example of how to set up a secure and efficient network environment using CentOS 7 virtual machines.
 
