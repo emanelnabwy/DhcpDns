@@ -18,7 +18,7 @@ The project includes the following files and directories:
 `dhcp/`: Contains the configuration files and scripts for setting up and managing the DHCP server.<br>
 `dns/`: Contains the configuration files and scripts for setting up and managing the DNS server.<br>
 `gateway/`: Contains the configuration files and scripts for setting up and managing the gateway server using iptables.<br>
-`README.md`: This file.
+
 ## Technologies Used
 - CentOS 7<br>
 - Vmware<br>
