@@ -29,12 +29,12 @@ The project includes the following files and directories:
 ## How to Run
 #### To set up a similar network environment, follow these steps:
 
-1. Install `Vmware` your host machine.
-2. Create `Centos 7` virtual machines for each component of the network: DHCP server, DNS server, and gateway server.
-3. Configure the `internal network` interface cards on each virtual machine, making sure they are all on the `same internal virtual switch`.
-4. Install and configure the `DHCP` server and `DNS` server on their respective virtual machines.
-5. Configure the `external network` interface card on gateway machine.
-6. Configure the `gateway` server with iptables to provide internet access to the virtual machines.
+1. Install Vmware your host machine.
+2. Create Centos 7 virtual machines for each component of the network: DHCP server, DNS server, and gateway server.
+3. Configure the internal network interface cards on each virtual machine, making sure they are all on the same internal virtual switch.
+4. Install and configure the DHCP server and DNS server on their respective virtual machines.
+5. Configure the external network interface card on gateway machine.
+6. Configure the gateway server with iptables to provide internet access to the virtual machines.
 7. Test the network connectivity and make sure all components are functioning as expected.
 
 ## Conclusion
