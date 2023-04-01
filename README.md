@@ -1,4 +1,4 @@
-# Linux Admin 3 and Server Management Project
+# Server Management Project
 This project showcases my skills and experience in setting up a secure and efficient network environment using `CentOS 7` virtual machines. Specifically, I focused on the following topics:
 
 ## DHCP Server Setup
