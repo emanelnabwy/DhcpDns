@@ -1,5 +1,6 @@
 # Server Management Project
 This project showcases my skills and experience in setting up a secure and efficient network environment using `CentOS 7` virtual machines. Specifically, I focused on the following topics:
+![image](https://user-images.githubusercontent.com/38937613/229257169-41fee723-dc10-464a-a906-f9d3a3256d9d.png)
 
 ## DHCP Server Setup
 I have extensive experience in setting up and managing `DHCP` servers, which helped me ensure that devices on our network were assigned IP addresses automatically and efficiently. In this project, I used CentOS 7 virtual machines with private IP addresses to set up and manage the `DHCP` server.
