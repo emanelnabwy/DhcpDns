@@ -3,7 +3,7 @@ sudo iptables -A FORWARD -i <LAN interface> -j ACCEPT
 sudo iptables -A FORWARD -m state --state RELATED,ESTABLISHED -j ACCEPT
 sudo iptables -t nat -A POSTROUTING -o <WAN interface> -j MASQUERADE
 sudo iptables-save > /etc/iptables/rules.v4
-## to enable ping 
+### to enable ping 
 sudo iptables -A INPUT -p icmp --icmp-type 8 -j ACCEPT
 sudo iptables -A OUTPUT -p icmp --icmp-type 0 -j ACCEPT
 sudo service iptables save
