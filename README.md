@@ -19,8 +19,23 @@ The project includes the following files and directories:
 `dns/`: Contains the configuration files and scripts for setting up and managing the DNS server.<br>
 `gateway/`: Contains the configuration files and scripts for setting up and managing the gateway server using iptables.<br>
 `README.md`: This file.
-## Getting Started
-To replicate my project, you will need to set up a CentOS 7 virtual machine and follow the instructions in each directory to set up and manage the DHCP server, DNS server, and gateway server.
+## Technologies Used
+- CentOS 7<br>
+- Vmware<br>
+- iptables<br>
+- DHCP server<br>
+- DNS server<br>
+
+## How to Run
+#### To set up a similar network environment, follow these steps:
+
+1. Install `Vmware` your host machine.
+2. Create `Centos 7` virtual machines for each component of the network: DHCP server, DNS server, and gateway server.
+3. Configure the `internal network` interface cards on each virtual machine, making sure they are all on the `same internal virtual switch`.
+4. Install and configure the `DHCP` server and `DNS` server on their respective virtual machines.
+5. Configure the `external network` interface card on gateway machine.
+6. Configure the `gateway` server with iptables to provide internet access to the virtual machines.
+7. Test the network connectivity and make sure all components are functioning as expected.
 
 ## Conclusion
 I'm proud of my work on this project and grateful for the opportunity to use my skills and knowledge to make a real difference in our organization. I hope this project serves as a useful example of how to set up a secure and efficient network environment using CentOS 7 virtual machines.
